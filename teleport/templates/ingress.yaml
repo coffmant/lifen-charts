@@ -2,7 +2,7 @@
 {{- $serviceName := include "teleport.fullname" . -}}
 {{- if .Values.ingress.enabled }}
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v11
 kind: Ingress
 metadata:
   name: {{ include "teleport.fullname" . }}

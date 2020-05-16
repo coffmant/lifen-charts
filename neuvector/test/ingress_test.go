@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/gruntwork-io/terratest/modules/helm"
-	extv1beta1 "k8s.io/api/extensions/v1beta1"
+	extv1beta1 "k8s.io/api/apps/v11"
 )
 
 func TestIngress(t *testing.T) {
